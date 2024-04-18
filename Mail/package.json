@@ -1,0 +1,25 @@
+{
+  "name": "mail",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cores": "^0.8.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express.js": "^1.0.0",
+    "http": "^0.0.1-security",
+    "node": "^18.20.1",
+    "node.js": "^0.0.1-security",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "resend": "^3.2.0"
+  }
+}
